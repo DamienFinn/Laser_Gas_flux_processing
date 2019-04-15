@@ -1,0 +1,26 @@
+Laser gas flux processing script
+
+This code measures gas fluxes from portable, continuously-generated laser-derived data.
+With an input mapping file, users define the start and end times to measure fluxes of
+interest. A linear model is fit between start/end time points. As disturbances to gas
+chambers can generate erroneous gas measurements, the script also removes outlier 
+measurements from the beginning and end (dependent on a window defined by the user); fluxes
+are calculated from linear models fit to the raw data and the cropped data. Users are
+provided with fluxes, slopes, R2 and p values for raw and cropped data. 
+
+Plots of raw and cropped linear model fits, and the residuals of the models, are also given.
+
+Fluxes are calculated as:
+Flux mg m2 h-1 = (lm slope (ppb sec-1) * gas MW * vol (L) * pressure (kPa) * 3.6)/(R * (temp (C) + 273.13) * 1000 * Area (m2))
+
+and
+
+Field Corrected Flux mg m2 h-1 = 
+((vol (L)/((101.325/pressure (kPa))*22.4*((temp (C) + 273.13)/298.15)))/Area (m2))*(lm slope (ppb sec-1)/1000) * gas MW * 3.6 
+
+
+Note that additional metadata (temperature in Celsius, gas chamber dimensions, atm pressure 
+kPa) are required for flux calculations. 
+
+
+Finally, an output that is compatible with the R package "flux" is also provided for comparison.

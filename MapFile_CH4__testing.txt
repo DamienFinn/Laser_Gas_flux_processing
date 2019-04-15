@@ -1,0 +1,18 @@
+d_chamber	smpl_date 	raw_start_time	raw_end_time 	atmp_Kpa	plot_code	sub_plot	plot_corner_code	collar_number	replica	measurement_code	treatment_code_partitioning	disturbance_code_control	litter_code	year	month	day	hour	min	atmp_mb	instr	chmb_type	total_vol_L	collar_area_m2	collar_hght_cm	air_temp_c	soil_temp_c	CH4_RawReads	CH4_flux_name	C02_flux_Filename	Dissolve_gas	Dissolve_gas_name	comments
+03-A1	11/23/16	07:08:20	07:16:20	101.01	QUI-01	3	NA	1	1	TOT	NA	NA	NA	2016	11	23	7	10:20	1010.1	Aeris_CH4_Laser	static-pvc	2.967276491	0.032429251	9.2	27.9	26.2	CH4_QUI-01_2016-11_aeris.txt	CH4_QUI-01_2016-11-23_3_1-1	C02_QUI-01_2016-11-23_3_1-1_3A-1	H2O A	dG-H20_QUI-01_2016-11-23_3_1-1_H2O A	NA
+03-A2	11/23/16	07:19:20	07:24:20	101.01	QUI-01	3	NA	1	2	TOT	NA	NA	NA	2016	11	23	7	18:20	1010.1	Aeris_CH4_Laser	static-pvc	2.967276491	0.032429251	9.2	27.9	26.2	CH4_QUI-01_2016-11_aeris.txt	CH4_QUI-01_2016-11-23_3_1-2	C02_QUI-01_2016-11-23_3_1-2_3A-2	NA	NA	NA
+03-B1	11/23/16	07:27:20	07:32:20	101.01	QUI-01	3	NA	2	1	TOT	NA	NA	NA	2016	11	23	7	27:20:00	1010.1	Aeris_CH4_Laser	static-pvc	4.037441783	0.032429251	12.5	27.9	26.2	CH4_QUI-01_2016-11_aeris.txt	CH4_QUI-01_2016-11-23_3_2-1	C02_QUI-01_2016-11-23_3_2-1_3B-1	H2O B	dG-H20_QUI-01_2016-11-23_3_2-1_H2O B	NA
+03-B2	11/23/16	07:36:00	07:41:00	101.01	QUI-01	3	NA	2	2	TOT	NA	NA	NA	2016	11	23	7	35:00:00	1010.1	Aeris_CH4_Laser	static-pvc	4.037441783	0.032429251	12.5	27.9	26.2	CH4_QUI-01_2016-11_aeris.txt	CH4_QUI-01_2016-11-23_3_2-2	C02_QUI-01_2016-11-23_3_2-2_3B-2	NA	NA	NA
+07-A1	11/23/16	08:58:00	09:03:00	100.95	QUI-01	7	NA	3	1	TOT	NA	NA	NA	2016	11	23	8	58:00:00	1009.5	Aeris_CH4_Laser	static-pvc	3.30778363	0.032429251	10.2	30.4	26.8	CH4_QUI-01_2016-11_aeris.txt	CH4_QUI-01_2016-11-23_7_3-1	C02_QUI-01_2016-11-23_7_3-1_7A-1	H2O A	dG-H20_QUI-01_2016-11-23_7_3-1_H2O A	NA
+07-A2	11/23/16	09:05:30	09:10:30	100.95	QUI-01	7	NA	3	2	TOT	NA	NA	NA	2016	11	23	9	5:00	1009.5	Aeris_CH4_Laser	static-pvc	3.30778363	0.032429251	10.2	30.4	26.8	CH4_QUI-01_2016-11_aeris.txt	CH4_QUI-01_2016-11-23_7_3-2	C02_QUI-01_2016-11-23_7_3-2_7A-2	NA	NA	NA
+07-B1	11/23/16	09:14:20	09:19:20	100.95	QUI-01	7	NA	4	1	TOT	NA	NA	NA	2016	11	23	9	13:20	1009.5	Aeris_CH4_Laser	static-pvc	3.810437024	0.032429251	11.8	30.4	26.7	CH4_QUI-01_2016-11_aeris.txt	CH4_QUI-01_2016-11-23_7_4-1	C02_QUI-01_2016-11-23_7_4-1_7B-1	H2O B	dG-H20_QUI-01_2016-11-23_7_4-1_H2O B	NA
+07-B2	11/23/16	09:22:00	09:27:00	100.95	QUI-01	7	NA	4	2	TOT	NA	NA	NA	2016	11	23	9	21:00	1009.5	Aeris_CH4_Laser	static-pvc	3.810437024	0.032429251	11.8	30.4	26.7	CH4_QUI-01_2016-11_aeris.txt	CH4_QUI-01_2016-11-23_7_4-2	C02_QUI-01_2016-11-23_7_4-2_7B-2	NA	NA	NA
+																																
+																																
+																																
+																																
+																																
+																																
+																																
+																																
+																																
